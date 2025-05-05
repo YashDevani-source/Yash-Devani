@@ -1,105 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-	<!-- meta tags for SEO -->
-
-	
-	<meta name="author" content="Yash Devani" />
-	<meta name="robots" content="index, follow" />
-	<meta name="language" content="English" />
-	<meta name="revisit-after" content="7 days" />
-	<!--  -->
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title> Portfolio | Yash Devani</title>
-	<link rel="icon" href="./src/assets/favicon.svg" type="image/svg+xml">
-	<style>
-		/* Font Definitions */
-		@font-face {
-			font-family: 'Victor Mono';
-			font-style: italic;
-			font-weight: 100 700;
-			font-display: swap;
-			src: url(https://fonts.gstatic.com/s/victormono/v3/Yq6S-LGQWyfv-LGy7lEO0_ZYhxMMTJRE49CK8g.woff2) format('woff2');
-			unicode-range: U+0000-00FF, U+0100-02AF, U+0301, U+0400-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-		}
-
-		@font-face {
-			font-family: 'Victor Mono';
-			font-style: normal;
-			font-weight: 100 700;
-			font-display: swap;
-			src: url(https://fonts.gstatic.com/s/victormono/v3/Yq6Q-LGQWyfv-LGy7lEO0_ZdtxUGS7ZG.woff2) format('woff2');
-			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-		}
-
-		body {
-			font-family: victor mono;
-			background-color: #ffffff;
-			margin: 10px;
-			padding: 10px;
-		}
-
-		button {
-			margin: 3px;
-		}
-
-		img {
-			border-radius: 10%;
-			box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
-			user-select: none;
-			-webkit-user-drag: none;
-			width: 200px;
-		}
-
-		.button-container {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			gap: 10px;
-		}
-
-		a {
-			text-decoration: none;
-		}
-
-		::selection {
-			color: #111111;
-			background-color: #e7e7e7;
-		}
-
-		footer {
-			padding: 8px 16px;
-		}
-
-		.links-buttons {
-			display: inline-block;
-			background-color: #000;
-			padding: 4px 8px;
-			color: #ffffff;
-			border-radius: 8px;
-		}
-
-		/* .links-buttons:focus,
-		.links-buttons:hover {
-			background-color: #111010;
-		} */
-	</style>
-</head>
-
-<body>
-	<h1>Yash Devani</h1>
-	<img width="200px" src="./src/assets/self2.jpeg" alt="Manpreet Singh Dhaliwal - Developer Profile Picture" width="200" />
-	<header>Welcome to my digital home</header>
-	<main>
-		My Name is Yash Devani, I'm a seasoned Full Stack JavaScript Developer 
-		<h1>Coming Soon</h1>
-	</main>
-	<footer>
-		<a href="https://github.com/msdhaliwal" class="links-buttons">Github</a>
-		<a href="https://www.linkedin.com/in/msdhaliwal94/" class="links-buttons">LinkedIn</a>
-		<a href="/resume.html" class="links-buttons">View Resume</a>
-		<a href="/src/assets/resume.pdf" download="msdhaliwal-resume.pdf" class="links-buttons">Download Resume</a>
-	</footer>
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding HostAl – Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0; padding: 0; box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: linear-gradient(to bottom right, #ffe4e1, #fff0f5);
+        color: #2c2c2c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 2rem;
+      }
+      .title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #e91e63;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        max-width: 600px;
+      }
+      .coming-soon {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        background-color: #f8bbd0;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        display: inline-block;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      .feature {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        min-width: 180px;
+      }
+      .cta {
+        margin-top: 2rem;
+      }
+      input[type="email"] {
+        padding: 0.6rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-right: 0.5rem;
+        width: 250px;
+      }
+      button {
+        padding: 0.6rem 1rem;
+        background-color: #e91e63;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #c2185b;
+      }
+      footer {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">Coding HostAl</div>
+    <div class="subtitle">Where coders check in and level up — the "A" stands for efforts to become an Excellent Coder</div>
+    <div class="coming-soon">🚧 Coming Soon 🚧</div>
+  
+    <div class="features">
+      <div class="feature">🧠 DSA Practice Rooms</div>
+      <div class="feature">🤝 Peer Coding Battles</div>
+      <div class="feature">📚 Study Logs</div>
+      <div class="feature">💬 HostAl Chit-Chats</div>
+    </div>
+  
+    <div class="cta">
+      <p>Get notified when we launch:</p>
+      <input type="email" placeholder="Enter your email">
+      <button>Notify Me</button>
+    </div>
+  
+    <footer>
+      &copy; 2025 Coding HostAl. Make the "A" count.
+    </footer>
+  </body>
+  </html>
